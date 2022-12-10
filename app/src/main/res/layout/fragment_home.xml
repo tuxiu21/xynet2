@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/run_sw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动服务" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本应用原理：在手机连接WiFi的瞬间帮你激活校园网。\n每天6点自动运行。并持续监控WiFi开启情况。"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小贴士：程序没有帮你自动打开WiFi的权限。\n当然，你可以在手机设置中添加每天7点自动打开WiFi的自动任务，确保最佳的使用体验。"/>
+</LinearLayout>

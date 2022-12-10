@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    app:key="preference_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="situation"
+        app:title="运行状态">
+
+        <Preference
+            app:title="查看任务实时运行状态"
+            app:key="now_task"/>
+        <Preference
+            app:title="查看最后一次错误"
+            app:key="last_failure"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="other"
+        app:title="其他">
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

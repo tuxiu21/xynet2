@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Campus Net Connector</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">主页</string>
+    <string name="setting">配置</string>
+    <string name="login">登入</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
